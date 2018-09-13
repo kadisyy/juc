@@ -5,3 +5,7 @@ RejectedExecutionHandler接口提供了拒绝任务处理的自定义方法的�
 在ThreadPoolExecutor中已经包含四种处理策略。
 
 四种策略
+1，直接放弃
+2，删除最新的
+3，删除最老的
+4，内部启动    
