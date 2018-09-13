@@ -4,3 +4,4 @@
 RejectedExecutionHandler接口提供了拒绝任务处理的自定义方法的机会。
 在ThreadPoolExecutor中已经包含四种处理策略。
 
+四种策略
