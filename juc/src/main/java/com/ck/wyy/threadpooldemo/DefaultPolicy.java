@@ -14,7 +14,6 @@ public class DefaultPolicy {
                 System.out.println("create" + t);
                 return t;
             }
-
         },
                 rejectPolicy()
 //                new ThreadPoolExecutor.DiscardOldestPolicy()
