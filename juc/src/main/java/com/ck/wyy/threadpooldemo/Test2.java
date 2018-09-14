@@ -1,6 +1,7 @@
 package com.ck.wyy.threadpooldemo;
 
 
+import java.util.HashMap;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
@@ -20,5 +21,6 @@ public class Test2 {
             executor.execute(task);
         }
         System.out.println("主线程结束:" + Thread.currentThread().getName());
+
     }
 }

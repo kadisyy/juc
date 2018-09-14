@@ -23,6 +23,7 @@ public class CountTask extends RecursiveTask<Integer> {
         int sum = 0;
         boolean canCompute = (end - start) <= THRESHOLD;
         if (canCompute) {
+            System.out.println("start = " + start + "; end = " + end);
             for (int i = start; i <= end; i++) {
                 sum += i;
             }
